@@ -19,7 +19,7 @@ export function GetDevice(){
         include: [
             {
                 model: Department,
-                attributes: ["id_department", "name"]
+                attributes: ["name"]
             }
         ]
     });
@@ -53,7 +53,7 @@ export function GetDeviceName(name){
         include: [
             {
                 model: Department,
-                attributes: ["id_department", "name"]
+                attributes: ["name"]
             }
         ]
     });
